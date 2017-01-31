@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.surface">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="銀向健康"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".surface">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iadl">
+        </activity>
+        <activity
+            android:name=".IADLmenu">
+        </activity>
+        <activity
+            android:name=".numbergame">
+        </activity>
+        <activity
+            android:name=".CalendarActivity">
+        </activity>
+        <activity
+            android:name=".TestActivity">
+        </activity>
+        <activity
+            android:name=".badl">
+        </activity>
+        <activity
+            android:name=".BADLmenu">
+        </activity>
+        <activity
+            android:name=".ADLmenu">
+        </activity>
+        <activity
+            android:name=".badl_upstair">
+        </activity>
+        <activity
+            android:name=".badl_getup">
+        </activity>
+        <activity
+            android:name=".filelistActivity">
+        </activity>
+        <activity
+            android:name=".medicineclock">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+</manifest>

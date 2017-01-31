@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歷史紀錄"
+        android:id="@+id/record"
+        android:textSize="22dip"
+        android:textColor="#FFFFFF"
+        android:drawableRight="@drawable/record"
+        android:background="@drawable/recordstyle"
+        android:layout_gravity="bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/walk" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="日常生活活動能力\n(ADL)"
+        android:id="@+id/Adl"
+        android:drawableRight="@drawable/adl"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/iadlstyle"
+        android:textSize="22dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="100dp"
+        android:text="起身行走測試\n(TUG)"
+        android:id="@+id/tug"
+        android:textSize="22dip"
+        android:textColor="#FFFFFF"
+        android:drawableRight="@drawable/tug"
+        android:background="@drawable/tugstyle"
+        android:layout_below="@+id/Adl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="100dp"
+        android:text="10公尺走路測驗"
+        android:id="@+id/walk"
+        android:textSize="22dip"
+        android:textColor="#FFFFFF"
+        android:drawableRight="@drawable/walk"
+        android:background="@drawable/walkstyle"
+        android:allowUndo="true"
+        android:layout_below="@+id/tug"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/frameLayout"
+        android:background="@drawable/phonestyle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:background="@drawable/newgogologo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/button5"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+</RelativeLayout>

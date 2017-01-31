@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.iadlmenu.IADLmenu">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="BADL問卷"
+        android:textSize="24dip"
+        android:id="@+id/question_badl"
+        android:background="@drawable/questionstyle"
+        android:drawableRight="@drawable/question"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:text="撿起"
+        android:textSize="24dip"
+        android:id="@+id/badl_getup"
+        android:background="@drawable/phonestyle"
+        android:drawableRight="@drawable/walk"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/question_badl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="120dip"
+        android:text="爬樓梯"
+        android:textSize="24dip"
+        android:id="@+id/badl_upstair"
+        android:background="@drawable/medicinestyle"
+        android:drawableRight="@drawable/uping"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/badl_getup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/frameLayout2"
+        android:background="@drawable/phonestyle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/badl_upstair">
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:background="@drawable/newgogologo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/button5"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+</RelativeLayout>
