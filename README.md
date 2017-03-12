@@ -1,6 +1,8 @@
 # Android-mobility-test-system-for-elder-people
 
 Android 老人行動力檢測系統
+![alt tag](http://url/to/img.png)
+
 在台灣處於高齡化社會的情況下，老年人的健康及照護變得更為要。
 為了能夠提早偵測老年人的行動力表現異常，我們利用最常見手機APP來實作三種檢測身體行動力的量表，量表名稱分別為TUG、IADL、BADL
 使得一般民眾也能輕易的檢測出自己的身體狀況，並可作為輔助醫生診斷的簡便工具之一。
