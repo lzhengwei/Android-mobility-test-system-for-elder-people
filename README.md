@@ -10,3 +10,8 @@ Android 老人行動力檢測系統
 也可結合Msp430腳部穿戴式加速規感測器裝置於雙腳，取得更精準的雙腳加速規訊號
 藉由手機及腳部穿戴式加速規分析獲得的生理動態資料，來判斷各個量表中動作的完成度獲時間，評斷出一個準確的分數
 並且同步儲存診斷的資料於資料庫中，建構一個行動力的檢測系統。
+
+![APP介面簡介](https://github.com/lzhengwei/Android-mobility-test-system-for-elder-people/blob/master/%E6%B5%81%E7%A8%8B%E5%9C%96.jpg))
+
+![MSP430加速規感測器](https://github.com/lzhengwei/Android-mobility-test-system-for-elder-people/blob/master/IMAG1080.jpg))
+
